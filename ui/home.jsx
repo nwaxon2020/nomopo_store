@@ -46,7 +46,7 @@ export default function HomeUi(){
             </div><hr className="text-gray-500"/>
 
             {/* Other Phone Models */}
-            <div className="pb-2 my-6 mt-2 gap-4 sm:p-4 flex flex-row overflow-x-scroll">                   
+            <div className="pt-8 pb-8 sm:my-6 mt-2 gap-4 sm:p-4 flex flex-row overflow-x-scroll">                   
                 <div className="flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
                     <Image
                     src="/phone.avif"       // image path (public folder or external URL)
@@ -160,16 +160,16 @@ export default function HomeUi(){
             {/* contacts */}
             <div id="bg" className={`${roboto.className} sm:px-12 lg:px-30 text-center px-2 py-6 sm:py-10  grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-100 font-bold`}>
                 <h3 className="sm:text-xl mt-4 sm:col-span-2 underline text-center font-semibold">Do You Have Complains?</h3>
-                <div className="p-4 sm:p-12 bg-red-800 rounded-lg">
+                <div className="p-4 sm:p-14 bg-red-800 rounded-lg">
                     <Link href={"mailto:nomopoventures@yahoo.com "}>Manger Nomopo <small className="font-normal">- {"[Manager]"}</small></Link>
                 </div>
-                <div className="p-4 sm:p-12 bg-red-800 rounded-lg">
+                <div className="p-4 sm:p-14 bg-red-800 rounded-lg">
                     <Link href={"mailto:veraekanem.ev@gmail.com"}>Vera <small className="font-normal">- {"[Customer Service 1]"}</small></Link>
                 </div>
-                <div className="p-4 sm:p-12 bg-red-800 rounded-lg">
+                <div className="p-4 sm:p-14 bg-red-800 rounded-lg">
                     <Link href={"mailto:codewithme.nw@gmail.com"}>Martins <small className="font-normal">- {"[Customer service 2]"}</small></Link>
                 </div>
-                <div className="p-4 sm:p-12 bg-red-800 rounded-lg">
+                <div className="p-4 sm:p-14 bg-red-800 rounded-lg">
                     <Link href={"mailto:princenwachukwu308@yahoo.com "}>Prince <small className="font-normal">- {"[Customer service 3]"}</small></Link>
                 </div>
                 <h5 className="sm:col-span-2 text-sm font-normal text-center bg-gray-900 p-3 rounded-lg">contact us today ☝</h5>
