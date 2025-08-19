@@ -176,8 +176,16 @@ export default function HomeUi(){
             </div><hr className="text-gray-500"/>
 
             {/* Trending */}
-            <div className="mt-6 sm:mt-12 mx-auto max-w-[60rem] p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 pb-6">
-                <h2 className="mb-4 sm:col-span-2 text-lg sm:text-xl underline text-center text-gray-200 font-extrabold">Trending Models</h2>
+            <div className="max-h-[50rem] overflow-y-scroll mt-6 sm:mt-12 mx-auto max-w-[60rem] sm:p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-4 sm:gap-6 pb-6">
+                <h2 className="bg-gray-900 z-30 sticky pt-6 top-[-2px] mt-0 mb-2 sm:col-span-2 text-lg sm:text-xl underline text-center text-gray-200 font-extrabold">Trending Models</h2>
+                <div className="relative">
+                    <Image 
+                        src="/phone.avif"       // image path (public folder or external URL)
+                        alt="Company Logo" width={300} height={300} 
+                        className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
+                        
+                    />
+                </div>
                 <div className="relative">
                     <Image 
                         src="/phone.avif"       // image path (public folder or external URL)
