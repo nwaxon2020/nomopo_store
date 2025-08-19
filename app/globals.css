@@ -24,3 +24,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Sidebar */
+.side-bar {
+  /* start off-canvas at the right edge */
+  transform: translateX(100%);
+  /* slide in on mount */
+  animation: slider-in 400ms ease-out forwards;
+}
+
+/* sidebar Keyframes */
+@keyframes slider-in {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+
+/* complains */
+#bg{
+  background-image: url("../public/bg.jpeg");
+}
+
