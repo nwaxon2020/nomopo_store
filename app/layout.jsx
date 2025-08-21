@@ -24,6 +24,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <meta name="description" content={"Nomopo Store – Your one-stop shop for the latest mobile phones, quality accessories, and unbeatable deals."} />
+        <meta name="keywords" content="mobile phones, accessories, smartphones, Nomopo Store, gadgets" />
+        <meta property="og:title" content={"Nomopo Store | Mobile Phones & Accessories"} />
+        <meta property="og:description" content="Nomopo Stores" />
+        <meta property="og:image" content="/instore.jpg" />
+      
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
