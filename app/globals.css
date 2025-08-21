@@ -46,3 +46,19 @@ body {
   background-image: url("../public/bg.jpeg");
 }
 
+
+/* Catogories mobile View */
+#cat{
+  /* start off-canvas at the right edge */
+  transform: translateY(100%);
+  /* slide in on mount */
+  animation: slider-in 500ms ease-out forwards;
+}
+
+/* up-sidebar Keyframes */
+@keyframes slider-in {
+  from { transform: translateY(-2px); 
+  opacity: 0;}
+  to   { transform: translateY(0); }
+}
+

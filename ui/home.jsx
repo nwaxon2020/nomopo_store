@@ -46,7 +46,7 @@ export default function HomeUi(){
             </div><hr className="text-gray-500"/>
 
             {/* Other Phone Models */}
-            <div className="pt-8 pb-8 sm:my-6 mt-2 gap-4 sm:p-4 flex flex-row overflow-x-scroll">                   
+            <div className="pt-8 pb-8 sm:my-6 mt-2 gap-4 sm:p-4 flex flex-row overflow-x-auto">                   
                 <div className="flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
                     <Image
                     src="/phone.avif"       // image path (public folder or external URL)
@@ -176,16 +176,8 @@ export default function HomeUi(){
             </div><hr className="text-gray-500"/>
 
             {/* Trending */}
-            <div className="max-h-[50rem] overflow-y-scroll mt-6 sm:mt-12 mx-auto max-w-[60rem] sm:p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-4 sm:gap-6 pb-6">
-                <h2 className="bg-gray-900 z-30 sticky pt-6 top-[-2px] mt-0 mb-2 sm:col-span-2 text-lg sm:text-xl underline text-center text-gray-200 font-extrabold">Trending Models</h2>
-                <div className="relative">
-                    <Image 
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo" width={300} height={300} 
-                        className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
-                        
-                    />
-                </div>
+            <div className="max-h-[50rem] overflow-y-auto sm:max-h-none mt-6 sm:mt-12 mx-auto max-w-[60rem] sm:p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-4 sm:gap-6 pb-6">
+                <h2 className="bg-gray-900 z-30 sticky sm:static pt-6 top-[-2px] mt-0 mb-2 sm:col-span-2 text-lg sm:text-xl underline text-center text-gray-200 font-extrabold">Trending Models</h2>
                 <div className="relative">
                     <Image 
                         src="/phone.avif"       // image path (public folder or external URL)
