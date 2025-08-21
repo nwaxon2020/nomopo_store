@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={"Nomopo Store – Your one-stop shop for the latest mobile phones, quality accessories, and unbeatable deals."} />
         <meta name="keywords" content="mobile phones, accessories, smartphones, Nomopo Store, gadgets" />
         <meta property="og:title" content={"Nomopo Store | Mobile Phones & Accessories"} />
-        <meta property="og:description" content="Nomopo Stores" />
+        <meta property="og:description" content="Shop the latest phones & accessories at Nomopo Store – Great prices, trusted quality." />
         <meta property="og:image" content="/instore.jpg" />
       
       </head>

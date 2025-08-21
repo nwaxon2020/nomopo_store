@@ -23,7 +23,7 @@ export default function HomeUi(){
                         height={400}          // desired height in px
                         className="sm:border-1 border-gray-600 sm:py-2 flex-2 sm:w-200  max-h-[27rem] bg-gray-800 mx-auto rounded-lg object-contain"
                     /> 
-                    <strong className="absolute bottom-10 right-12 pl-4 py-1 bg-white text-gray-700 rounded-lg">Tecno CAMON 40-PRO<span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="whitespace-nowrap mr-[-36px] text-[10px] sm:text-base absolute bottom-10 right-12 pl-4 py-1 bg-white text-gray-700 rounded-lg">Tecno CAMON 40-PRO<span className="ml-4 p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>     
                 
                 <div className="flex-1 flex-col gap-4 sm:gap-6" >
@@ -35,18 +35,18 @@ export default function HomeUi(){
                             height={200}          // desired height in px
                             className="mx-auto rounded-lg object-cover"
                         />
-                        <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Pouch<span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                        <strong className="mr-[-28px] text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Pouch<span className="ml-2 p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                     </div>
 
                     <div className="relative sm:p-2 bg-gray-800 mt-1 rounded-lg border-1 border-gray-600">
                         <Image
-                            src="/phone.avif"       // image path (public folder or external URL)
+                            src="/notfound.jpeg"       // image path (public folder or external URL)
                             alt="Company Logo"    // accessibility description
                             width={200}           // desired width in px
                             height={200}          // desired height in px
                             className="mx-auto rounded-lg object-cover"
                         />
-                        <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Glass Protector<span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                        <strong className="whitespace-nowrap mr-[-32px] text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Not Available<span className="ml-2 p-2 text-white bg-blue-600 rounded-r-lg">#0000</span></strong>     
                     </div>
                 </div>
             </div><hr className="text-gray-500"/>
@@ -61,7 +61,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -73,7 +73,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -85,7 +85,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -97,7 +97,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -109,7 +109,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -121,7 +121,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -133,7 +133,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -145,7 +145,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -157,7 +157,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             
             
@@ -169,7 +169,7 @@ export default function HomeUi(){
                         height={200}          // desired height in px
                         className="rounded-lg mx-auto object-contain"
                     />
-                    <strong className="shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             </div><hr className="text-gray-500"/>
 
@@ -201,7 +201,7 @@ export default function HomeUi(){
                         className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
                         
                     />
-                    <strong className="shadow-2xl absolute bottom-8 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="shadow-2xl absolute bottom-4 sm:bottom-6 right-10 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
                 <div className="relative">
                     <Image 
@@ -210,7 +210,7 @@ export default function HomeUi(){
                         className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
                         
                     />
-                    <strong className="shadow-2xl absolute bottom-8 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="shadow-2xl absolute bottom-4 sm:bottom-6 right-10 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
                 <div className="relative">
                     <Image 
@@ -219,7 +219,7 @@ export default function HomeUi(){
                         className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
                         
                     />
-                    <strong className="shadow-2xl absolute bottom-8 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="shadow-2xl absolute bottom-4 sm:bottom-6 right-10 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
                 <div className="relative">
                     <Image 
@@ -228,7 +228,7 @@ export default function HomeUi(){
                         className="rounded-lg w-70 h-80 sm:w-90 sm:h-100 lg:w-100 lg:h-110 mx-auto" 
                         
                     />
-                    <strong className="shadow-2xl absolute bottom-8 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    <strong className="shadow-2xl absolute bottom-4 sm:bottom-6 right-10 pl-4 py-1 bg-white text-gray-700 rounded-lg">Oppo A5-PRO <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
                 </div>
             </div><hr className="text-gray-500"/>
         </div>
