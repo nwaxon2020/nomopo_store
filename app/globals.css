@@ -47,6 +47,53 @@ body {
 }
 
 
+/* Other Models */
+/* Custom Scrollbar for Horizontal Phone Scroller */
+.phone-scroller {
+  scroll-behavior: smooth;
+}
+
+/* White scrollbar (Webkit browsers) */
+.phone-scroller::-webkit-scrollbar {
+  height: 8px;
+}
+
+.phone-scroller::-webkit-scrollbar-track {
+  background: #222; /* darker track */
+  border-radius: 10px;
+}
+
+.phone-scroller::-webkit-scrollbar-thumb {
+  background: #fff; /* white thumb */
+  border-radius: 10px;
+}
+
+.phone-scroller::-webkit-scrollbar-thumb:hover {
+  background: #ccc; /* lighter when hovered */
+}
+
+/* Firefox scrollbar */
+.phone-scroller {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #222;
+}
+
+/* Auto scroll animation */
+@keyframes auto-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* scroll half the content width */
+  }
+}
+
+.phone-scroller {
+  animation: auto-scroll 40s linear infinite;
+}
+
+
+
 /* Catogories mobile View */
 #cat{
   /* start off-canvas at the right edge */

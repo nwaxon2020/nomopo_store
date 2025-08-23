@@ -52,124 +52,126 @@ export default function HomeUi(){
             </div><hr className="text-gray-500"/>
 
             {/* Other Phone Models */}
-            <div className="pt-8 pb-8 sm:my-6 mt-2 gap-4 sm:p-4 flex flex-row overflow-x-auto">                   
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
-                </div>
-            
-            
-                <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
-                    <Image
-                        src="/phone.avif"       // image path (public folder or external URL)
-                        alt="Company Logo"    // accessibility description
-                        width={200}           // desired width in px
-                        height={200}          // desired height in px
-                        className="rounded-lg mx-auto object-contain"
-                    />
-                    <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+            <div className="pt-8 pb-8 sm:my-6 mt-2 sm:p-4 overflow-x-auto">                   
+                <div className="phone-scroller flex flex-row gap-4 sm:gap-6 ">
+                    <div className="relative flex justify-between items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/phone.avif"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
+                
+                
+                    <div className="relative flex justify-center items-center min-w-[10rem] h-40 rounded-lg border-1 border-gray-600 sm:min-w-[25rem] sm:h-55 bg-gray-800 p-1">
+                        <Image
+                            src="/bg.jpeg"       // image path (public folder or external URL)
+                            alt="Company Logo"    // accessibility description
+                            width={200}           // desired width in px
+                            height={200}          // desired height in px
+                            className="rounded-lg mx-auto object-contain"
+                        />
+                        <strong className="mr-[-21px] whitespace-nowrap text-[8px] sm:text-base shadow-2xl absolute bottom-2 right-8 pl-4 py-1 bg-white text-gray-700 rounded-lg">Samsung Galaxy <span className="p-2 text-white bg-blue-600 rounded-r-lg">#1,000,000</span></strong>     
+                    </div>
                 </div>
             </div><hr className="text-gray-500"/>
 
