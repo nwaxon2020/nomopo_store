@@ -9,9 +9,10 @@ export default function ProductUi(){
 
     return(
         <div className="flex flex-col sm:flex-row sm:gap-4 gap-6 sm:px-6 lg:px-12 text-gray-200">
+            {/* Categories Section */}
             <div className="sm:flex-1 sm:max-w-50">
                 <div className="hidden sm:block ">
-                    <h3 className="pl-1 mt-0 text-lg font-bold border-b-1 border-gray-500 text-gray-500">categories</h3>
+                    <h3 className="pl-1 mt-0 text-lg font-bold border-b-1 border-gray-500 text-gray-400">categories</h3>
                     <ul className="w-full p-4 pb-50 bg-gray-800 italics flex flex-col gap-4 items-start justify-center rounded-b-lg">
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Tecno</li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Infinix</li>
@@ -62,7 +63,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                     
                 </div>
@@ -87,7 +88,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -111,7 +112,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -135,7 +136,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -159,7 +160,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -183,7 +184,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -207,7 +208,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -231,7 +232,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -255,7 +256,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -279,7 +280,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -303,7 +304,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -327,7 +328,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -351,7 +352,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -375,7 +376,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -399,7 +400,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -423,7 +424,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -447,7 +448,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -471,7 +472,7 @@ export default function ProductUi(){
                         </div>
                     </div>
 
-                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"#252,999"}</span>
+                    <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
                     <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
                 </div>
             </div>

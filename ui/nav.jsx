@@ -40,14 +40,14 @@ export default function Nav(){
             {
                 menu && (<div className="side-bar absolute right-0 sm:hidden z-20">
                 <ul className="font-bold p-4 h-[50vh] w-[14rem] text-gray-300 bg-gray-600 flex flex-col space around gap-3 rounded-bl-lg">
-                    <li className={`${path==="/"?"text-gray-500 border-b-1 pt-4 pb-2":"border-b-1 pt-4 pb-2"}`}>
+                    <li className={`${path==="/"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
                         <Link onClick={()=> setMenu(false)} href={"/"}><i className="w-full cursor-pointer fa fa-home" style={{fontSize:"24px"}}></i></Link>
                     </li>
-                    <li className={`${path==="/product"?"text-gray-500 border-b-1 pt-4 pb-2":"border-b-1 pt-4 pb-2"}`}>
+                    <li className={`${path==="/product"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
                         <Link onClick={()=> setMenu(false)} className="w-full" href={"/product"}>Products</Link>
                     </li>
                 
-                    <li className={`${path==="/news"?"text-gray-500 border-b-1 pt-4 pb-2":"border-b-1 pt-4 pb-2"}`}>
+                    <li className={`${path==="/news"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
                         <Link onClick={()=> setMenu(false)} className="w-full" href={"/news"}>News</Link>
                     </li>
                     <li className="pt-4 pb-2">
