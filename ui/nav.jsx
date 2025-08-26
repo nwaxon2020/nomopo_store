@@ -26,7 +26,8 @@ export default function Nav(){
                         <input className="w-full px-3 py-1 bg-white outline-gray-400 rounded-lg text-gray-900" type="text" />
                         <i className="text-gray-500 absolute top-2 right-2 fa fa-search"></i>
                     </li>
-
+                    
+                    <li className={`hidden sm:block ${path==="/accessories"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/news"}>Accessories</Link></li>
                     <li className={`hidden sm:block ${path==="/news"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/news"}>News</Link></li>
                     <li className="ml-20 sm:ml-0">
                         <i className="cursor-pointer fa fa-shopping-cart hover:text-green-300 transition duration-200 ease-in-out" style={{fontSize:"24px"}}></i> 
@@ -47,6 +48,9 @@ export default function Nav(){
                         <Link onClick={()=> setMenu(false)} className="w-full" href={"/product"}>Products</Link>
                     </li>
                 
+                    <li className={`${path==="/accessories"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
+                        <Link onClick={()=> setMenu(false)} className="w-full" href={"/accessories"}>Accessories</Link>
+                    </li>
                     <li className={`${path==="/news"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
                         <Link onClick={()=> setMenu(false)} className="w-full" href={"/news"}>News</Link>
                     </li>
