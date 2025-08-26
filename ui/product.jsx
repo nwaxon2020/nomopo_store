@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -21,7 +22,7 @@ export default function ProductUi(){
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Oppo</li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Vivo</li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Others</li>
-                            <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 ">Assesories</li>
+                            <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 "><Link href={"/accessories"}>Accessories</Link></li>
                     </ul>
                 </div>
 
@@ -36,11 +37,13 @@ export default function ProductUi(){
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Oppo</li>
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Vivo</li>
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Others</li>
-                            <li onClick={()=> setMenu(false)} className="w-full p-1 ">Assesories</li>
+                            <li onClick={()=> setMenu(false)} className="w-full p-1 "><Link href={"/accessories"}>Accessories</Link></li>
                         </ul>
                     }
                 </div>
             </div>
+
+            {/* Mobile Section */}
             <div className="sm:mt-6 sm:flex-5 mt-12 sm:mt-0 col-span-1 sm:col-span-4 grid grid-cols-1 sm:grid-cols-3 gap-6 ">
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -64,7 +67,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                     
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -89,7 +92,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -113,7 +116,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -137,7 +140,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -161,7 +164,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -185,7 +188,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -209,7 +212,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -233,7 +236,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -257,7 +260,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -281,7 +284,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -305,7 +308,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -329,7 +332,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -353,7 +356,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -377,7 +380,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -401,7 +404,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -425,7 +428,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -449,7 +452,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
                 <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                     <Image
@@ -473,7 +476,7 @@ export default function ProductUi(){
                     </div>
 
                     <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 252,999"}</span>
-                    <button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button>
+                    <Link href={`/product/product-detail/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 </div>
             </div>
         </div>
