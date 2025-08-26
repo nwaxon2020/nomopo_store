@@ -1,5 +1,5 @@
 export default function AccessoriesDetail(){
     return(
-        <div></div>
+        <div className="text-white">Details !</div>
     )
 }
