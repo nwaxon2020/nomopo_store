@@ -27,7 +27,7 @@ export default function Nav(){
                         <i className="text-gray-500 absolute top-2 right-2 fa fa-search"></i>
                     </li>
                     
-                    <li className={`hidden sm:block ${path==="/accessories"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/news"}>Accessories</Link></li>
+                    <li className={`hidden sm:block ${path==="/accessories"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/accessories"}>Accessories</Link></li>
                     <li className={`hidden sm:block ${path==="/news"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/news"}>News</Link></li>
                     <li className="ml-20 sm:ml-0">
                         <i className="cursor-pointer fa fa-shopping-cart hover:text-green-300 transition duration-200 ease-in-out" style={{fontSize:"24px"}}></i> 
