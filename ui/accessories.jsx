@@ -7,7 +7,7 @@ export default function AssesoriesUi(){
     return(
         
         <div className="text-center sm:mt-6 mt-12 sm:mt-0 grid justify-center items-center grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 ">
-            <h1 className="pl-4 sm:text-2xl font-black text-left sm:col-span-3 lg:col-span-5">Accessories</h1>
+            <h1 className="pl-4 sm:text-xl lg:text-2xl font-black text-left sm:col-span-3 lg:col-span-5">Accessories</h1>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
                 
