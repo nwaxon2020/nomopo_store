@@ -103,3 +103,17 @@ body {
   to   { transform: translateY(0); }
 }
 
+
+/* Cart Animation */
+#cart{
+  animation: cart-scroll 0.4s ease-in;
+}
+
+@keyframes cart-scroll {
+  from { transform: translateX(200px); 
+  opacity: 0;}
+  to   { transform: translateX(0); 
+  opacity: 1;
+  }
+}
+

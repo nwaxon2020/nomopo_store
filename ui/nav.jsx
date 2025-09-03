@@ -3,10 +3,33 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Nav(){
 
+    const cart = [
+        {
+            img: "/phone.avif",
+            name: "Power Bank",
+            amount: "₦20,000",
+            color: "blue"
+        },
+        {
+            img: "/phone.avif",
+            name: "Screen Guard",
+            amount: "₦20,000",
+            color: "none"
+        },
+        {
+            img: "/phone.avif",
+            name: "Samsung Galaxy A5",
+            amount: "₦20,000",
+            color: "Gray"
+        },
+    ]
+
     const[menu, setMenu] = useState(false);
+    const[cartView, setcartView] = useState(false);
 
     const path = usePathname();
 
@@ -17,7 +40,7 @@ export default function Nav(){
     return(
         <div className="relative py-4 sm:py-8">
             <div className="flex flex-col px-5 py-2 gap-10 border-b-1 border-white">
-                <ul className="pl-0 flex justify-between items-end text-white font-semibold">
+                <ul className="relative pl-0 flex justify-between items-end text-white font-semibold">
                     <li className="mb-4"><div><h2 className="text-red-600 font-extrabold underline border-3 inline rounded-md p-2 border-l-[goldenrod]"><Link href={"/"}>Nomo<span className="text-[goldenrod] underline">Po</span></Link></h2></div></li>
                     <li className={`hidden sm:block ${path==="/"?"text-gray-400":""}`}><Link href={"/"}><i className="cursor-pointer fa fa-home hover:text-green-300 transition duration-200 ease-in-out" style={{fontSize:"24px"}}></i></Link></li>
                     <li className={`hidden sm:block ${path==="/product"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/product"}>Products</Link></li>
@@ -30,8 +53,8 @@ export default function Nav(){
                     <li className={`hidden sm:block ${path==="/accessories"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/accessories"}>Accessories</Link></li>
                     <li className={`hidden sm:block ${path==="/news"?"text-gray-400":""}`}><Link className="hover:text-green-300 transition duration-200 ease-in-out" href={"/news"}>News</Link></li>
                     <li className="ml-20 sm:ml-0">
-                        <i className="cursor-pointer fa fa-shopping-cart hover:text-green-300 transition duration-200 ease-in-out" style={{fontSize:"24px"}}></i> 
-                        {/* {Remeber to add an onlick to activat a link to show a form for orders}    */}
+                        <i onClick={()=> setcartView(true)} className="cursor-pointer fa fa-shopping-cart hover:text-green-300 transition duration-200 ease-in-out" style={{fontSize:"24px"}}></i> 
+                        {<small className="absolute top-0  text-center bg-blue-500 w-8 h-8 rounded-full p-2">1</small>}
                     </li>
 
                     <li onClick={()=> setMenu((prev)=>!prev)} className="sm:hidden"><i className={`fa ${menu?"fa-angle-double-up":"fa-bars"}`} style={{fontSize:"30px"}}></i></li>
@@ -66,6 +89,39 @@ export default function Nav(){
                     <i className="text-gray-500 absolute top-2 right-8 fa fa-search"></i>
                 </div>
             </div>
+
+            {/* CART POP UP */}
+            {
+                cartView &&  <div id="cart" className="py-6 px-1 sm:p-6 absolute z-40 right-0 h-[100vh] mt-0 sm:border-l-1 rounded-bl-lg border-gray-700 w-full sm:w-[25rem] bg-[rgba(0,0,0,0.88)]">
+                    
+                    <div className="relative font-black">
+                        <h2 className="font-black px-4 py-6">Purchases</h2>
+                        <div className="absolute top-4 right-6 text-2xl py-1 px-4 border  border-gray-700 bg-gray-900 rounded-lg" onClick={()=> setcartView(false)}><i className="fa fa-close"></i></div>
+                    </div>
+
+                    {
+                        cart.map((p, idx)=>{
+                            return(
+                                <div key={idx} className="relative flex justify-start items-center py-3 border-b-1 border-gray-600">
+                                    <Image
+                                        src={p.img}
+                                        alt="Product"
+                                        width={65}
+                                        height={65}
+                                        className="rounded-lg m-1 object-contain"
+                                    />
+                                    <div className="relative px-3 w-full bg-gray-800 rounded-lg flex flex-col flex-wrap">
+                                        <strong>{p.name}</strong>
+                                        <p>{p.amount}</p>
+                                        <p>{p.color}</p>
+                                        <i className="absolute right-4 top-7 fa fa-close"></i>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            }
         </div>
     )
 }
