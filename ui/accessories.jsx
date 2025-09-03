@@ -19,7 +19,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -27,7 +27,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
                 
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
@@ -41,7 +41,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -49,7 +49,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -62,7 +62,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -70,7 +70,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -83,7 +83,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -91,7 +91,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -104,7 +104,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -112,7 +112,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -125,7 +125,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -133,7 +133,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -146,7 +146,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -154,7 +154,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -167,7 +167,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -175,7 +175,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -188,7 +188,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -196,7 +196,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -209,7 +209,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -217,7 +217,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -230,7 +230,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -238,7 +238,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -251,7 +251,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -259,7 +259,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -272,7 +272,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -280,7 +280,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -293,7 +293,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -301,7 +301,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -314,7 +314,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -322,7 +322,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -335,7 +335,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -343,7 +343,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -356,7 +356,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -364,7 +364,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
             <div className="relative p-4 bg-gray-800 border-1 border-gray-600 rounded-lg">
                 <Image
@@ -377,7 +377,7 @@ export default function AssesoriesUi(){
                 />
 
                 <div className="flex flex-col">
-                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank</strong>
+                    <strong className="bg-gray-900 p-1 rounded-b-md font-black">Power Bank <small className="ml-4 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                     <div>
                         <small className="font-semibold">25000 <span className="font-normal text-[goldenrod]">{"mAh"}</span></small>
                         <small className="block font-semibold">Others: <span className="font-normal text-[goldenrod]">{"Black"}</span></small>
@@ -385,7 +385,7 @@ export default function AssesoriesUi(){
                 </div>
 
                 <span className="absolute top-4 right-4 p-2 rounded-lg rounded-tl-none rounded-br-none bg-red-800 text-white font-bold underline">{"₦ 25,000"}</span>
-                <Link href={`accessoriesl/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
+                <Link href={`/accessories/${1}`}><button className="w-full text-sm mt-2 hover:bg-green-700 transition ease-in-out bg-blue-800 text-white font-semibold px-6 py-2 rounded-md">ADD TO CART</button></Link>
             </div>
         </div>
     )

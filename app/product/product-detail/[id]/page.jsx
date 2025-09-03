@@ -55,7 +55,7 @@ export default function ProductDetail() {
         {/* Right: Product Info */}
         <div className="flex-1 bg-gray-800 rounded-lg border border-gray-600 p-4">
           {/* You can add product details here later */}
-          <h2 className="text-xl">Product Name</h2>
+          <h2 className="text-xl">Product Name <small className="ml-4 text-[goldenrod] text-[14px] font-normal">Qty: {"100"}</small></h2>
           <div className="mt-2 mb-4">
             <h2 className="border-1 border-gray-100 font-normal inline bg-blue-700 rounded-2xl p-2">{"₦ 300,000"}</h2>
           </div><hr/>

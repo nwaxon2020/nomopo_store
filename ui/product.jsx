@@ -15,7 +15,7 @@ export default function ProductUi(){
                 <div className="hidden sm:block ">
                     <h3 className="pl-1 mt-0 text-lg font-bold border-b-1 border-gray-500 text-gray-400">categories</h3>
                     <ul className="w-full p-4 pb-50 bg-gray-800 italics flex flex-col gap-4 items-start justify-center rounded-b-lg">
-                            <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Tecno</li>
+                            <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 forelative nt-semi-bold border-b-1 border-gray-700">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Infinix</li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Itel</li>
                             <li className="hover:bg-gray-700 transition ease-in-out w-full p-1 font-semi-bold border-b-1 border-gray-700">Redmi</li>
@@ -30,7 +30,7 @@ export default function ProductUi(){
                 <div className="relative sm:hidden w-70">
                     <div onClick={()=> setMenu((prev)=>!prev)} className="absolute top-0 z-20 inline ml-4 p-2 rounded-lg bg-gray-700 font-bold">Categories <i className={`ml-4 fa ${menu?"fa-angle-up":"fa fa-angle-down"}`}></i></div>
                     {menu && <ul id="cat" className="max-h-[20rem] z-10 overflow-y-auto w-40 p-4 rounded-b-lg absolute top-[1.4rem] ml-4 bg-gray-500 italics flex flex-col gap-4 items-start justify-center">
-                            <li onClick={()=> setMenu(false)} className="w-full pt-30 p-1 font-semi-bold border-b-1 border-gray-700">Tecno</li>
+                            <li onClick={()=> setMenu(false)} className="w-full pt-30 p-1 forelative nt-semi-bold border-b-1 border-gray-700">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></li>
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Infinix</li>
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Itel</li>
                             <li onClick={()=> setMenu(false)} className="w-full p-1 font-semi-bold border-b-1 border-gray-700">Redmi</li>
@@ -56,7 +56,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small>s <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -81,7 +81,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -105,7 +105,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -129,7 +129,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -153,7 +153,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -177,7 +177,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -201,7 +201,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -225,7 +225,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -249,7 +249,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -273,7 +273,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -297,7 +297,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -321,7 +321,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -345,7 +345,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -369,7 +369,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -393,7 +393,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -417,7 +417,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -441,7 +441,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>
@@ -465,7 +465,7 @@ export default function ProductUi(){
                     />
 
                     <div className="flex flex-col">
-                        <strong className="bg-gray-900 p-1 rounded-b-md font-black">Tecno</strong>
+                        <strong className="relative bg-gray-900 p-1 rounded-b-md font-black">Tecno <small className="absolute right-1 top-2 text-[goldenrod] text-[12px] font-normal">Qty: {"100"}</small></strong>
                         <div>
                             <small className="font-semibold">Ram & Rom: <span className="font-normal text-[goldenrod]">{"8/256gb, "}</span></small>
                             <small className="font-semibold">Front Camera: <span className="font-normal text-[goldenrod]">{"50MP, "}</span></small>

@@ -7,6 +7,7 @@ export default function Footer(){
                 <li className="hover:text-gray-400 transition duration-200 ease-in-out"><Link href={"/"}>Home</Link></li>
                 <li className="hover:text-gray-400 transition duration-200 ease-in-out"><Link href={"/product"}>Products</Link></li>
                 <li className="hover:text-gray-400 transition duration-200 ease-in-out"><Link href={"/news"}>News</Link></li>
+                <li className="hover:text-gray-400 transition duration-200 ease-in-out"><Link href={"/accessories"}>Accessories</Link></li>
             </ul>
 
             <ul className="flex flex-col justify-around gap-1">
