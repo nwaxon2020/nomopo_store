@@ -7,6 +7,7 @@ import Image from "next/image";
 
 export default function Nav(){
 
+    //Sample List
     const cart = [
         {
             img: "/phone.avif",
@@ -33,7 +34,7 @@ export default function Nav(){
 
     const path = usePathname();
 
-    if(path === "/policy"){
+    if(path === "/policy" || path === "/checkout"){
         return false
     }
 
@@ -62,7 +63,7 @@ export default function Nav(){
                 
             </div>
             {
-                menu && (<div className="side-bar absolute right-0 sm:hidden z-20">
+                menu && (<div className="side-bar absolute right-0 sm:hidden z-30">
                 <ul className="font-bold p-4 h-[50vh] w-[14rem] text-gray-300 bg-gray-600 flex flex-col space around gap-3 rounded-bl-lg">
                     <li className={`${path==="/"?"text-gray-500 border-b-1 pt-4 pb-1":"border-b-1 pt-4 pb-1"}`}>
                         <Link onClick={()=> setMenu(false)} href={"/"}><i className="w-full cursor-pointer fa fa-home" style={{fontSize:"24px"}}></i></Link>
@@ -92,12 +93,15 @@ export default function Nav(){
 
             {/* CART POP UP */}
             {
-                cartView &&  <div id="cart" className="py-6 px-1 sm:p-6 absolute z-40 right-0 h-[100vh] mt-0 sm:border-l-1 rounded-bl-lg border-gray-700 w-full sm:w-[25rem] bg-[rgba(0,0,0,0.88)]">
+                cartView &&  <div id="cart" className="z-30 absolute top-0 sm:top-23 right-0 pt-6 pb-18 px-1 sm:p-6 mt-0 sm:border-l-1 rounded-bl-lg border-gray-700 w-full sm:w-[25rem] bg-[rgba(0,0,0,0.88)]">
                     
                     <div className="relative font-black">
                         <h2 className="font-black px-4 py-6">Purchases</h2>
                         <div className="absolute top-4 right-6 text-2xl py-1 px-4 border  border-gray-700 bg-gray-900 rounded-lg" onClick={()=> setcartView(false)}><i className="fa fa-close"></i></div>
                     </div>
+
+                    {/* CART EMPTY display */}
+                    {/* <div className="flex justify-center items-center text-2xl font-extrabold text-white text-center min-w-50 min-h-50">Cart Empty</div> */}
 
                     {
                         cart.map((p, idx)=>{
@@ -120,6 +124,17 @@ export default function Nav(){
                             )
                         })
                     }
+
+                    <div className="mt-22">
+                        <div>
+                            <ul className="p-4 rounded-lg bg-white text-gray-700">
+                                <li className="py-2 border-b border-gray-300"><strong className="text-red-500">Amount:</strong><span className="ml-2 font-semibold">{"₦104,000"}</span></li>
+                                <li className="py-2 border-b border-gray-300"><strong className="text-red-500">Shipping Cost:</strong><span className="ml-2 font-semibold">{"₦100"}</span></li>
+                                <li className="mt-8"><strong className="text-red-500">Total:</strong><span className="ml-2 font-semibold">{"₦104,100"}</span></li>
+                            </ul>
+                        </div>
+                        <Link href={"/checkout"} className="block my-12 w-full rounded-lg mx-auto px-5 py-2 bg-blue-700 hover:bg-blue-900 font-extrabold">Proceed to CheckOut</Link>
+                    </div>
                 </div>
             }
         </div>

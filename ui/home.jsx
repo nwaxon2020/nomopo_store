@@ -190,7 +190,7 @@ export default function HomeUi(){
                 <div className="p-4 sm:p-14 bg-red-800 rounded-lg">
                     <Link href={"mailto:princenwachukwu308@yahoo.com "}>Prince <small className="font-normal">- {"[Customer service 3]"}</small></Link>
                 </div>
-                <h5 className="sm:col-span-2 text-sm font-normal text-center bg-gray-900 p-3 rounded-lg">contact us today ☝</h5>
+                <h5 className="sm:col-span-2 text-sm font-normal text-center bg-gray-900 p-3 rounded-lg">contact us today ☝ We respond Faster than you expect</h5>
             </div><hr className="text-gray-500"/>
 
             {/* Trending */}
